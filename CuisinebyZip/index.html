@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Cuisine by Zipcode</title>
+  <title>Homework 3 | Cuisine by Zipcode</title>
   <script src="https://fb.me/react-with-addons-15.1.0.js"></script>
   <script src="https://fb.me/react-dom-15.1.0.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.js"></script>
@@ -13,6 +13,7 @@
 
 </head>
 <body>
+
   <div id="ui"></div>
   <div id="vis"></div>
   <script type="text/babel">
@@ -39,6 +40,9 @@
     return (
       <form onSubmit={this.handleSubmit}>
         <label>
+            <h2 class = "header"> Cuisine by Zipcode </h2>
+
+
           ZipCode &nbsp;
           <input type="text" value={this.state.value} onChange={this.handleChange} />
         </label>
